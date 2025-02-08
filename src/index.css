@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+
+body {
+    font-family: "Source Sans 3", "Montserrat", sans-serif;
+    color : #072F53;
+}
+
+.class::-webkit-scrollbar{
+    display: none;
+}
+
+@utility scrollbar-hidden {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
