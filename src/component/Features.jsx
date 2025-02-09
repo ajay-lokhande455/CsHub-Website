@@ -45,7 +45,7 @@ const Features = () => {
       </div>
 
    
-      <img src="src/assets/hand.svg" className="absolute bottom-[-19px] z-[-222] w-32 md:w-auto" alt="Hand" />
+      <img src="src/assets/hand.svg" className="absolute md:block hidden bottom-[-19px] z-[-222] w-32 md:w-auto" alt="Hand" />
 
     </div>
   );
