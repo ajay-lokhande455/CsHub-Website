@@ -17,7 +17,7 @@ const Faq = () => {
         </h3>
  
         <img
-          src="src/assets/line.svg"
+          src="/assets/line.svg"
           alt="decorative line"
           className="absolute top-15 left-[40%] hidden md:block"
         />
@@ -32,7 +32,7 @@ const Faq = () => {
 
       <div className="px-4 md:px-10">
         <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-9">
-          {/* Question Block */}
+
           <div className="">
             <p className="py-3 font-bold text-lg">
               Is there a free trial available?

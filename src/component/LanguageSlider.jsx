@@ -26,11 +26,11 @@ const LanguageSlider = () => {
   }, []);
 
   const languages = [
-    { name: "HTML", img: "src/assets/html.svg" },
-    { name: "CSS", img: "src/assets/css.svg" },
-    { name: "JavaScript", img: "src/assets/javascript.svg" },
-    { name: "Python", img: "src/assets/python.svg" },
-    { name: "React", img: "src/assets/react.svg" }
+    { name: "HTML", img: "/assets/html.svg" },
+    { name: "CSS", img: "/assets/css.svg" },
+    { name: "JavaScript", img: "/assets/javascript.svg" },
+    { name: "Python", img: "/assets/python.svg" },
+    { name: "React", img: "/assets/react.svg" }
   ];
 
   return (
@@ -40,7 +40,7 @@ const LanguageSlider = () => {
           Trending Technology
         </h2>
         <img
-          src="src/assets/line.svg"
+          src="/assets/line.svg"
           className="absolute bottom-0 w-2xs"
         />
       </div>

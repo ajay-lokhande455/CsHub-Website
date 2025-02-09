@@ -6,14 +6,14 @@ import Development from "./Development";
 const WorkSection = () => {
   return (
     <div className="relative ">
-      <div className="bg-[url('src/assets/bg.png')] bg-cover bg-center bg-no-repeat opacity-30 absolute w-full h-full"></div>
+      <div className="bg-[url('/assets/bg.png')] bg-cover bg-center bg-no-repeat opacity-30 absolute w-full h-full"></div>
 
       <div className="relative py-8 px-6 md:px-15 z-10">
         <h2 className="text-xl md:text-3xl font-semibold md:text-left">
           How It Works
         </h2>
         <img
-          src="src/assets/line3.svg"
+          src="/assets/line3.svg"
           className="absolute left-20 transform -translate-x-1/2 md:left-[12%] md:translate-x-0"
           alt="Underline Decoration"
         />

@@ -40,7 +40,7 @@ const Footer = () => {
       <div className="p-6 md:p-10">
         <div className="h-full border-b-2 border-amber-300 flex flex-wrap md:flex-nowrap justify-between">
           <div className="w-full md:w-1/3">
-            <img src="src/assets/logo.svg" alt="" className="py-4" />
+            <img src="/assets/logo.svg" alt="" className="py-4" />
             <p className="py-3 font-bold text-lg">About CS Buzz</p>
             <p className="py-3 text-sm md:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -75,13 +75,13 @@ const Footer = () => {
 
           <div className="flex gap-4">
             <img
-              src="src/assets/twitter.svg"
+              src="/assets/twitter.svg"
               alt="Twitter"
               className="h-6 w-6"
             />
-            <img src="src/assets/fb.svg" alt="Facebook" className="h-6 w-6" />
-            <img src="src/assets/insta.svg" alt="Instagram" className="h-6 w-6" />
-            <img src="src/assets/git.svg" alt="GitHub" className="h-6 w-6" />
+            <img src="/assets/fb.svg" alt="Facebook" className="h-6 w-6" />
+            <img src="/assets/insta.svg" alt="Instagram" className="h-6 w-6" />
+            <img src="/assets/git.svg" alt="GitHub" className="h-6 w-6" />
           </div>
         </div>
       </div>

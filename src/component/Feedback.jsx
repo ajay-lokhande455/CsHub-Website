@@ -13,17 +13,17 @@ const Feedback = () => {
 
         <div className="grid  grid-cols-3 gap-10 py-5">
           <div>
-            <img src="src/assets/student1.svg" alt="" />
+            <img src="/assets/student1.svg" alt="" />
           </div>
           <div>
-            <img src="src/assets/student2.svg" alt="" />
+            <img src="/assets/student2.svg" alt="" />
           </div>
           <div>
-            <img src="src/assets/student3.svg" alt="" />
+            <img src="/assets/student3.svg" alt="" />
           </div>
         </div>
         <div className="flex justify-center items-center">
-          <img src="src/assets/more.svg" alt="" />
+          <img src="/assets/more.svg" alt="" />
         </div>
       </div>
     </div>

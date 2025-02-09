@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between p-4 bg-white shadow-md relative z-10">
       <div className="flex items-center">
-        <img src="src/assets/logo.svg" alt="logo" className="w-32" />
+        <img src="/assets/logo.svg" alt="logo" className="w-32" />
       </div>
 
       <div className="md:hidden">
@@ -51,7 +51,7 @@ const Navbar = () => {
         <div className="fixed inset-0 bg-white z-20 p-6">
           <div className="flex justify-between items-center mb-6">
             <div>
-              <img src="src/assets/logo.svg" alt="logo" className="w-32" />
+              <img src="/assets/logo.svg" alt="logo" className="w-32" />
             </div>
             <button onClick={() => setMenuOpen(false)}>
               <HiX size={32} />

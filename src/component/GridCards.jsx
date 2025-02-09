@@ -6,10 +6,10 @@ const GridCards = () => {
       <div className="grid grid-cols-[repeat(7,300px)]  px-18">
         <div className=" col-start-1 col-end-3 p-8 flex flex-col  justify-end relative">
           <img
-            src="src/assets/upperArrrow.svg"
+            src="/assets/upperArrrow.svg"
             className="absolute left-0 top-2"
           />
-          <img src="src/assets/polygon.svg" className="absolute top-6 left-45"/>
+          <img src="/assets/polygon.svg" className="absolute top-6 left-45"/>
           <p className="font-bold">Sign Up:</p>
           <p className="py-5">
             Create your account in just a few clicks. Register with CS BUZZ to
@@ -19,10 +19,10 @@ const GridCards = () => {
         </div>
         <div className=" col-start-3 col-end-5 p-10 flex flex-col  justify-end relative">
           <img
-            src="src/assets/upperArrrow.svg"
+            src="/assets/upperArrrow.svg"
             className="absolute left-0 top-2"
           />
-          <img src="src/assets/polygon.svg" className="absolute top-6 left-45"/>
+          <img src="/assets/polygon.svg" className="absolute top-6 left-45"/>
           <p className="font-bold">Personalize Your Learning Experience:</p>
           <p className="py-5 ">
             Set your learning goals and preferences. Our adaptive learning
@@ -33,10 +33,10 @@ const GridCards = () => {
         </div>
         <div className=" col-start-5 col-end-7 p-8 flex flex-col  justify-end relative">
           <img
-            src="src/assets/upperArrrow.svg"
+            src="/assets/upperArrrow.svg"
             className="absolute left-0 top-2 "
           />
-          <img src="src/assets/polygon.svg" className="absolute top-6 left-45"/>
+          <img src="/assets/polygon.svg" className="absolute top-6 left-45"/>
           <p className="font-bold">Apply Your Skill</p>
           <p className="py-5 text-">
             Put your skills to the test with hands-on projects and coding
@@ -69,8 +69,8 @@ const GridCards = () => {
           </div>
         </div>
         <div className="  col-start-2 col-end-4 p-10 flex flex-col  justify-center relative ">
-          <img src="src/assets/downArrow.svg" alt="" className="absolute left-0 z-[-100] bottom-2.5 " />
-          <img src="src/assets/polygon2.svg" alt="" className="absolute bottom-6 left-45" />
+          <img src="/assets/downArrow.svg" alt="" className="absolute left-0 z-[-100] bottom-2.5 " />
+          <img src="/assets/polygon2.svg" alt="" className="absolute bottom-6 left-45" />
           <p className="font-bold">Choose Your Course:</p>
           <p className="py-5">
             Browse through our extensive catalog of computer science courses.
@@ -80,8 +80,8 @@ const GridCards = () => {
           </p>
         </div>
         <div className=" col-start-4 col-end-6 p-10 flex flex-col  justify-center relative">
-        <img src="src/assets/downArrow.svg" alt="" className="absolute left-0 z-[-100] bottom-2.5 " />
-        <img src="src/assets/polygon2.svg" alt="" className="absolute bottom-6 left-45" />
+        <img src="/assets/downArrow.svg" alt="" className="absolute left-0 z-[-100] bottom-2.5 " />
+        <img src="/assets/polygon2.svg" alt="" className="absolute bottom-6 left-45" />
           <p className="font-bold">Engage with Interactive Content</p>
           <p className="py-5">
             Start learning through interactive lessons that make complex
@@ -91,8 +91,8 @@ const GridCards = () => {
           </p>
         </div>
         <div className=" col-start-6 col-end-8 p-10 flex flex-col  justify-center relative">
-        <img src="src/assets/downArrow.svg" alt="" className="absolute left-0 z-[-100] bottom-2.5" />
-        <img src="src/assets/polygon2.svg" alt="" className="absolute bottom-6 left-45" />
+        <img src="/assets/downArrow.svg" alt="" className="absolute left-0 z-[-100] bottom-2.5" />
+        <img src="/assets/polygon2.svg" alt="" className="absolute bottom-6 left-45" />
           <p className="font-bold">Track Your Progress</p>
           <p className="py-5">
             Monitor your learning progress with our built-in tracking tools. See
