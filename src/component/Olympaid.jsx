@@ -2,21 +2,23 @@ import React from "react";
 
 const Olympiad = () => {
   return (
-    <div className="w-full overflow-hidden relative">
-      <div>
+    <div className="w-full overflow-hidden ">
+
+      <div className="hidden md:block">
         <img
           src="src/assets/star1.svg"
-          className="absolute left-0 top-[-20px] z-30 w-auto h-auto "
+          className="absolute left-0 top-40 w-auto h-auto"
           alt="Star Decoration"
         />
       </div>
-      <div className="relative w-full h-auto md:h-[60vh] overflow-hidden bg-[url('/src/assets/dots.png')] bg-cover bg-center bg-no-repeat">
+
+      <div className="relative w-full h-auto md:h-[60vh] bg-[url('/src/assets/dots.png')] bg-cover bg-center bg-no-repeat">
         <div className="h-auto md:h-[40vh] my-10 md:my-20 px-6 md:px-15">
           <button className="px-5 py-2.5 bg-[#FBC108] rounded-md hover:bg-red-700">
             Who we are
           </button>
           <div className="relative py-4">
-            <h2 className="text-xl md:text-3xl font-semibold text-center md:text-left">
+            <h2 className="text-xl md:text-3xl font-semibold  md:text-left">
               India's Largest Online Preparation Platform for Olympiad Exams
             </h2>
             <img
@@ -25,7 +27,7 @@ const Olympiad = () => {
               alt="Underline Decoration"
             />
           </div>
-          <p className="text-sm md:text-base text-center md:text-left py-3 pr-9">
+          <p className="text-sm md:text-base  md:text-left py-3 pr-9">
             Our preparation platform helps in Olympiad exam excellence through
             comprehensive practice and mock test papers. It consists of more
             than 3,00,000 questions, providing extensive practice to students to
@@ -35,11 +37,11 @@ const Olympiad = () => {
             of Technology (IITs) and top universities in the US to create a
             personalized and in-depth online learning experience.
           </p>
-          <div className="flex justify-center md:justify-start">
+          <div className="flex  md:justify-start">
             <button className="px-7 py-2.5 bg-[#072F53] text-white rounded-full my-5">
               Read More
             </button>
-            <div>
+            <div className="hidden md:block">
               <img
                 src="src/assets/pencil.svg"
                 className="absolute right-0 bottom-0 z-30 w-16 sm:w-24 lg:w-32"
@@ -50,8 +52,9 @@ const Olympiad = () => {
         </div>
       </div>
 
-      <div className="h-[15vh] bg-[#072F53] relative">
-        <div className="w-full h-auto md:h-[60vh] overflow-hidden bg-[url('src/assets/46b8d944711aba19045cf3c35cde7feb.png')] bg-cover bg-center bg-no-repeat absolute">
+
+      <div className="h-[30vh] md:h-[15vh] bg-[#072F53] relative">
+        <div className="w-full h-auto   absolute">
           <div className="my-2 mx-4 md:mx-15 flex justify-between flex-wrap">
             <div className="flex gap-7 flex-wrap items-center justify-center md:justify-start">
               <img src="src/assets/user.svg" alt="User Icon" className="w-12 sm:w-16 lg:w-20" />

@@ -10,7 +10,7 @@ function HeroSection() {
       />
       <div className="relative flex flex-col md:flex-row items-center px-6 md:px-6 gap-4 md:gap-8">
 
-        <div className="w-full md:w-[50%] relative h-[75vh] md:h-[75vh] flex justify-center">
+        <div className="w-full md:w-[50%] relative h-[60vh] md:h-[75vh] flex justify-center">
           <img src="src/assets/bgline.svg" className="opacity-10 absolute z-0 w-20 left-0 top-16 hidden md:block" />
           <img
             className="w-[80%] md:w-[90%] absolute bottom-0"

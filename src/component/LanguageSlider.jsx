@@ -34,8 +34,8 @@ const LanguageSlider = () => {
   ];
 
   return (
-    <div className="flex px-15 py-9 bg-[#F1F1F1] items-center relative gap-6">
-      <div className="w-64 min-w-[160px] flex flex-col justify-center items-center pb-2 relative ">
+    <div className="md:flex px-6 md:px-15 py-9 bg-[#F1F1F1] items-center relative gap-6">
+      <div className="w-64 min-w-[160px] flex flex-col justify-center items-center md:pb-2 pb-2 relative ">
         <h2 className="text-2xl md:text-3xl text-[#072F53] font-bold pb-2 ">
           Trending Technology
         </h2>
@@ -46,7 +46,7 @@ const LanguageSlider = () => {
       </div>
 
       <div className="relative w-full overflow-hidden">
-        <div ref={sliderRef} className="flex gap-6 whitespace-nowrap overflow-hidden scrollbar-hidden scroll-smooth">
+        <div ref={sliderRef} className="flex gap-6 pt-5 whitespace-nowrap overflow-hidden scrollbar-hidden scroll-smooth">
           {[...languages, ...languages].map((lang, index) => (
             <div
               key={index}

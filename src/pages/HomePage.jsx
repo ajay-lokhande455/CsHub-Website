@@ -7,13 +7,16 @@ import Features from "../component/Features";
 import Faq from "../component/Faq";
 import Enquiry from "../component/Enquiry";
 import Feedback from "../component/Feedback";
+import Footer from "../component/Footer";
 
 function HomePage() {
   return (
     <div className="">
       <HeroSection />
+      <div className="relative">
       <LanguageSlider />
       <Olympaid />
+      </div>
       <WorkSection />
       <Features />
       <div className="relative">
@@ -21,6 +24,7 @@ function HomePage() {
         <Enquiry />
       </div>
       <Feedback />
+      <Footer />
     </div>
   );
 }
