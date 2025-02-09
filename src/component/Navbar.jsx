@@ -3,7 +3,7 @@ import { IoExitOutline, IoSearchOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between px-10 z-20 py-4 h-20 bg-white ">
+    <nav className="flex justify-between px-15 z-20 py-4 h-20 bg-white ">
       <div>
         <img src="src/assets/logo.svg" alt="logo" />
       </div >

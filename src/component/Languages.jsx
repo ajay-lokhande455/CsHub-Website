@@ -33,7 +33,7 @@ const Languages = () => {
     };
 
     return (
-        <div className="relative bg-[#F1F1F1] h-12 flex items-center px-4 sm:px-10">
+        <div className="relative bg-[#F1F1F1] h-12 flex items-center px-15 sm:px-10">
 
             <button onClick={() => scroll('left')} className="p-2 text-orange-300 hover:text-orange-500">
                 <MdOutlineArrowBackIos size={20} />

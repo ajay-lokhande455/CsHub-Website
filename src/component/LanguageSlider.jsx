@@ -34,7 +34,7 @@ const LanguageSlider = () => {
   ];
 
   return (
-    <div className="flex px-10 py-9 bg-[#F1F1F1] items-center relative gap-6">
+    <div className="flex px-15 py-9 bg-[#F1F1F1] items-center relative gap-6">
       <div className="w-64 min-w-[160px] flex flex-col justify-center items-center pb-2 relative ">
         <h2 className="text-2xl md:text-3xl text-[#072F53] font-bold pb-2 ">
           Trending Technology
