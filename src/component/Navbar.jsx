@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoExitOutline, IoSearchOutline } from "react-icons/io5";
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import { MdSearch } from "react-icons/md";
+import logo from "../assets/logo.svg"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between p-4 bg-white shadow-md relative z-10">
       <div className="flex items-center">
-        <img src="/assets/logo.svg" alt="logo" className="w-32" />
+        <img src={logo} alt="logo" className="w-32" />
       </div>
 
       <div className="md:hidden">
