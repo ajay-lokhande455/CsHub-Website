@@ -1,9 +1,10 @@
 import React from "react";
+import html from "../assets/html.svg";
 
 const Cards = () => {
   const card = [
     {
-      logo: <img src="src/assets/html.svg" alt="html" />,
+      logo: <img src={html} alt="html" />,
       bg: "bg-[#FFD6CC]",
       title: "HTML",
       description:
