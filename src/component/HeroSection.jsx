@@ -1,20 +1,23 @@
 import React from "react";
-
+import bgimg from "../assets/46b8d944711aba19045cf3c35cde7feb.png"
+import bgline from "../assets/bgline.svg"
+import heroimg from "../assets/hero-img.svg"
+import line from "../assets/line.svg"
 function HeroSection() {
   return (
     <div className="relative bg-[#072F53] w-full min-h-[75vh] overflow-hidden">
       <img
-        src="/assets/46b8d944711aba19045cf3c35cde7feb.png"
+        src={bgimg}
         className="absolute top-0 left-0 w-full h-full object-cover opacity-15"
         alt="Background Image"
       />
       <div className="relative flex flex-col md:flex-row items-center px-6 md:px-6 gap-4 md:gap-8">
 
         <div className="w-full md:w-[50%] relative h-[60vh] md:h-[75vh] flex justify-center">
-          <img src="/assets/bgline.svg" className="opacity-10 absolute z-0 w-20 left-0 top-16 hidden md:block" />
+          <img src={bgline} className="opacity-10 absolute z-0 w-20 left-0 top-16 hidden md:block" />
           <img
             className="w-[80%] md:w-[90%] absolute bottom-0"
-            src="/assets/hero-img.svg"
+            src={heroimg}
             alt="Hero Image"
           />
         </div>
@@ -28,7 +31,7 @@ function HeroSection() {
 
             <h1 className="text-2xl md:text-4xl font-extrabold leading-tight md:leading-normal py-2 relative">
               Build Skills With Experts Any Time, Anywhere.
-              <img src="/assets/line.svg" className="absolute left-1/2 md:left-24 bottom-1 transform -translate-x-1/2 md:translate-x-0" />
+              <img src={line} className="absolute left-1/2 md:left-24 bottom-1 transform -translate-x-1/2 md:translate-x-0" />
             </h1>
 
             <p className="text-lg md:text-xl py-4">

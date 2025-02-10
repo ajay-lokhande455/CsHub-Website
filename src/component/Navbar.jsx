@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="fixed inset-0 bg-white z-20 p-6">
           <div className="flex justify-between items-center mb-6">
             <div>
-              <img src="/assets/logo.svg" alt="logo" className="w-32" />
+              <img src={logo} alt="logo" className="w-32" />
             </div>
             <button onClick={() => setMenuOpen(false)}>
               <HiX size={32} />

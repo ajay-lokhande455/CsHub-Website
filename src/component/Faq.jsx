@@ -1,4 +1,5 @@
 import React from "react";
+import line from "../assets/line.svg";
 
 const Faq = () => {
   const questions = [
@@ -17,7 +18,7 @@ const Faq = () => {
         </h3>
  
         <img
-          src="/assets/line.svg"
+          src={line}
           alt="decorative line"
           className="absolute top-15 left-[40%] hidden md:block"
         />

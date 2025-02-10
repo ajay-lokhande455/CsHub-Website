@@ -1,4 +1,9 @@
 import React from "react";
+import logo from "../assets/logo.svg";
+import twitter from "../assets/twitter.svg"
+import fb from "../assets/fb.svg"
+import insta from "../assets/insta.svg"
+import git from "../assets/git.svg"
 
 const Footer = () => {
   const data = [
@@ -40,7 +45,7 @@ const Footer = () => {
       <div className="p-6 md:p-10">
         <div className="h-full border-b-2 border-amber-300 flex flex-wrap md:flex-nowrap justify-between">
           <div className="w-full md:w-1/3">
-            <img src="/assets/logo.svg" alt="" className="py-4" />
+            <img src={logo} alt="" className="py-4" />
             <p className="py-3 font-bold text-lg">About CS Buzz</p>
             <p className="py-3 text-sm md:text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
@@ -75,13 +80,13 @@ const Footer = () => {
 
           <div className="flex gap-4">
             <img
-              src="/assets/twitter.svg"
+              src={twitter}
               alt="Twitter"
               className="h-6 w-6"
             />
-            <img src="/assets/fb.svg" alt="Facebook" className="h-6 w-6" />
-            <img src="/assets/insta.svg" alt="Instagram" className="h-6 w-6" />
-            <img src="/assets/git.svg" alt="GitHub" className="h-6 w-6" />
+            <img src={fb} alt="Facebook" className="h-6 w-6" />
+            <img src={insta} alt="Instagram" className="h-6 w-6" />
+            <img src={git} alt="GitHub" className="h-6 w-6" />
           </div>
         </div>
       </div>

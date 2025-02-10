@@ -1,4 +1,10 @@
 import React from "react";
+import star1 from "../assets/star1.svg"
+import line from "../assets/line.svg"
+import pencil from "../assets/pencil.svg"
+import user from "../assets/user.svg"
+import cities from "../assets/cities.svg"
+import papers from "../assets/papers.svg"
 
 const Olympiad = () => {
   return (
@@ -6,7 +12,7 @@ const Olympiad = () => {
 
       <div className="hidden md:block">
         <img
-          src="/assets/star1.svg"
+          src={star1}
           className="absolute left-0 top-40 w-auto h-auto"
           alt="Star Decoration"
         />
@@ -22,7 +28,7 @@ const Olympiad = () => {
               India's Largest Online Preparation Platform for Olympiad Exams
             </h2>
             <img
-              src="/assets/line.svg"
+              src={line}
               className="absolute left-1/2 md:left-[30%] transform -translate-x-1/2 md:translate-x-0"
               alt="Underline Decoration"
             />
@@ -43,7 +49,7 @@ const Olympiad = () => {
             </button>
             <div className="hidden md:block">
               <img
-                src="/assets/pencil.svg"
+                src={pencil}
                 className="absolute right-0 bottom-0 z-30 w-16 sm:w-24 lg:w-32"
                 alt="Pencil Decoration"
               />
@@ -57,21 +63,21 @@ const Olympiad = () => {
         <div className="w-full h-auto   absolute">
           <div className="my-2 mx-4 md:mx-15 flex justify-between flex-wrap">
             <div className="flex gap-7 flex-wrap items-center justify-center md:justify-start">
-              <img src="/assets/user.svg" alt="User Icon" className="w-12 sm:w-16 lg:w-20" />
+              <img src={user} alt="User Icon" className="w-12 sm:w-16 lg:w-20" />
               <div className="text-[#FBC108] flex flex-col justify-center items-center text-center">
                 <p className="text-xl font-semibold text-white">Registered User</p>
                 <p className="text-3xl font-bold py-2">1000+</p>
               </div>
             </div>
             <div className="flex gap-7 flex-wrap items-center justify-center md:justify-start">
-              <img src="/assets/cities.svg" alt="Cities Icon" className="w-12 sm:w-16 lg:w-20" />
+              <img src={cities} alt="Cities Icon" className="w-12 sm:w-16 lg:w-20" />
               <div className="text-[#FBC108] flex flex-col justify-center items-center text-center">
                 <p className="text-xl font-semibold text-white">Towns And Cities</p>
                 <p className="text-3xl font-bold py-2">600+</p>
               </div>
             </div>
             <div className="flex gap-7 flex-wrap items-center justify-center md:justify-start">
-              <img src="/assets/papers.svg" alt="Papers Icon" className="w-12 sm:w-16 lg:w-20" />
+              <img src={papers} alt="Papers Icon" className="w-12 sm:w-16 lg:w-20" />
               <div className="text-[#FBC108] flex flex-col justify-center items-center text-center">
                 <p className="text-xl font-semibold text-white">Question and Test Papers</p>
                 <p className="text-3xl font-bold py-2">30,000+</p>

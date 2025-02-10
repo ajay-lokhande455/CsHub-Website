@@ -1,4 +1,9 @@
 import React from "react";
+import girlimg from "../assets/girlimg.svg";
+import pencil2 from "../assets/pencil2.svg";
+import book2 from "../assets/book2.svg";
+
+
 
 const Enquiry = () => {
   return (
@@ -6,7 +11,7 @@ const Enquiry = () => {
       <div className="flex flex-col md:flex-row gap-8 md:gap-10">
         {/* Image Section */}
         <div className="hidden md:flex w-full md:w-[55%] justify-center">
-          <img src="src/assets/girlimg.svg" className="object-cover" alt="Illustration" />
+          <img src={girlimg} className="object-cover" alt="Illustration" />
         </div>
 
         {/* Form Section */}
@@ -62,12 +67,12 @@ const Enquiry = () => {
 
       {/* Decorative Images Hidden on Mobile */}
       <img
-        src="src/assets/pencil2.svg"
+        src={pencil2}
         alt=""
         className="hidden md:block absolute top-[40%] right-0"
       />
       <img
-        src="src/assets/book2.svg"
+        src={book2}
         alt=""
         className="hidden md:block absolute bottom-0 left-0"
       />

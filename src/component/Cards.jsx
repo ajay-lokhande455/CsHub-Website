@@ -1,5 +1,12 @@
 import React from "react";
 import html from "../assets/html.svg";
+import css from "../assets/css.svg";
+import javascript from "../assets/javascript.svg";
+import java from "../assets/java.svg";
+import bootstrap from "../assets/bootstrap.svg";
+import php from "../assets/php.svg";
+import notebook from "../assets/notebook.svg";
+import book from "../assets/book.svg";
 
 const Cards = () => {
   const card = [
@@ -11,35 +18,35 @@ const Cards = () => {
         "Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance.",
     },
     {
-      logo: <img src="src/assets/css.svg" alt="css" />,
+      logo: <img src={css} alt="css" />,
       bg: "bg-[#B6C5FF]",
       title: "CSS",
       description:
         "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML, or XHTML).",
     },
     {
-      logo: <img src="src/assets/javascript.svg" alt="js" />,
+      logo: <img src={javascript} alt="js" />,
       bg: "bg-[#FFF8D5]",
       title: "JavaScript",
       description:
         "JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions.",
     },
     {
-      logo: <img src="src/assets/java.svg" alt="java" />,
+      logo: <img src={java} alt="java" />,
       bg: "bg-[#FFE6CF]",
       title: "Java",
       description:
         "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
     },
     {
-      logo: <img src="src/assets/bootstrap.svg" alt="bootstrap" />,
+      logo: <img src={bootstrap} alt="bootstrap" />,
       bg: "bg-[#FFF8D5]",
       title: "Bootstrap",
       description:
         "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
     },
     {
-      logo: <img src="src/assets/php.svg" alt="php" />,
+      logo: <img src={php} alt="php" />,
       bg: "bg-[#FFF8D5]",
       title: "PHP",
       description:
@@ -70,12 +77,12 @@ const Cards = () => {
 
       {/* Decorative Images Hidden on Mobile */}
       <img
-        src="src/assets/notebook.svg"
+        src={notebook}
         alt=""
         className="hidden sm:block absolute right-0 bottom-0"
       />
       <img
-        src="src/assets/book.svg"
+        src={book}
         alt=""
         className="hidden sm:block absolute left-0 bottom-[-50px] z-40"
       />

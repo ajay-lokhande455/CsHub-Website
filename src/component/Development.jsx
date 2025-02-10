@@ -1,11 +1,11 @@
 import React from "react";
-
+import employee from "../assets/employee.jpg"
 const Development = () => {
   return (
     <div className="flex flex-col md:flex-row px-5 md:px-15 gap-6 relative h-auto md:h-[65vh]">
       <div className="w-full md:w-[45%]">
         <img
-          src="src/assets/employee.jpg"
+          src={employee}
           alt="Employee"
           className="w-full h-full object-cover rounded-xl"
         />
