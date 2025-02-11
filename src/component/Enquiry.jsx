@@ -58,7 +58,7 @@ const Enquiry = () => {
           </div>
 
           <div>
-            <button className="px-6 text-white rounded-full py-2.5 bg-[#072F53]">
+            <button className="px-6 text-white rounded-full shadow-lg hover:bg-[#77a3c9]  cursor-pointer py-2.5 bg-[#072F53]">
               Enquiry
             </button>
           </div>

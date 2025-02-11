@@ -51,7 +51,7 @@ const GridCards = () => {
         </div>
 
         <div className="h-2 bg-[#072F53] rounded-full border border-green col-start-1 col-end-6  relative">
-          <div className="flex absolute justify-between gap-[18vw] top-[-30px] left-[-29px]">
+          <div className="flex absolute justify-between gap-58 md:gap-[18vw] top-[-30px] left-[-29px]">
             <div className="border-10 flex justify-center items-center text-center  border-amber-300 bg-[#FFFFFF] p-6 h-10 w-10 rounded-full">
               1
             </div>

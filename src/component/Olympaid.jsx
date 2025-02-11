@@ -20,7 +20,7 @@ const Olympiad = () => {
 
       <div className="relative w-full h-auto md:h-[60vh] bg-[url('/assets/dots.png')] bg-cover bg-center bg-no-repeat">
         <div className="h-auto md:h-[40vh] my-10 md:my-20 px-6 md:px-15">
-          <button className="px-5 py-2.5 bg-[#FBC108] rounded-md hover:bg-red-700">
+          <button className="px-5 py-2.5 bg-[#FBC108] cursor-pointer rounded-md hover:bg-red-700">
             Who we are
           </button>
           <div className="relative py-4">
@@ -44,7 +44,7 @@ const Olympiad = () => {
             personalized and in-depth online learning experience.
           </p>
           <div className="flex  md:justify-start">
-            <button className="px-7 py-2.5 bg-[#072F53] text-white rounded-full my-5">
+            <button className="px-7 py-2.5 bg-[#072F53] text-white shadow-lg hover:bg-[#77a3c9] rounded-full cursor-pointer my-5">
               Read More
             </button>
             <div className="hidden md:block">
